@@ -20,8 +20,8 @@
 | 06-01 | **环境搭建 + 最简工程跑通**：hello_world → Vector Add | ✅ | [00 - 环境搭建与基础demo](算子/算子开发基础/00%20-%20环境搭建与基础demo/) |
 | 06-02 | **能力边界 + TPipe/Matmul 入门**：全局能力分析、TQue 流水线、Matmul 高阶 API 逐行拆解 | ✅ | [01 - 熟悉算子开发能力边界](算子/算子开发基础/01%20-%20熟悉算子开发能力边界/) |
 | 06-03 | **融合算子深度解析**：Advanced vs Basic API 对比、REGIST_MATMUL_OBJ 详解、KFC 核间通信框架、TPipe/TQue 设计理念、`.template` 语法、910B 架构参数 | ✅ | [02 - 了解融合算子](算子/算子开发基础/02%20-%20了解融合算子/) |
-| 06-04 | **调试工具链**：cpudebug（CPU 断点）、printf/DumpTensor、msprof 性能采集 | ⬜ | |
-| 06-05 | **性能优化入门**：Vector Add 高绩效版本（多核拆分/DoubleBuffer）、bank 冲突避免 | ⬜ | |
+| 06-10 | **调试工具链**：printf 核内打印、Dump 张量可视化、CPU Debug + GDB 断点调试 | ✅ | [03 - 调试工具链](算子/算子开发基础/03%20-%20调试工具链/) |
+| 06-11 | **性能优化入门**：Vector Add 高绩效版本（多核拆分/DoubleBuffer）、bank 冲突避免 | ⬜ | |
 
 ### 模型结构
 
