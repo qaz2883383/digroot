@@ -22,12 +22,17 @@
 | 06-03 | **融合算子深度解析**：Advanced vs Basic API 对比、REGIST_MATMUL_OBJ 详解、KFC 核间通信框架、TPipe/TQue 设计理念、`.template` 语法、910B 架构参数 | ✅ | [02 - 了解融合算子](算子/算子开发基础/02%20-%20了解融合算子/) |
 | 06-10 | **调试工具链**：printf 核内打印、Dump 张量可视化、CPU Debug + GDB 断点调试 | ✅ | [03 - 调试工具链](算子/算子开发基础/03%20-%20调试工具链/) |
 | 06-11 | **性能调优入门**：bank conflict 原理与规避、Repeat/DataBlock 机制、搬运效率对比、Matmul 9 级递进优化 | ✅ | [04 - 性能调优](算子/算子开发基础/04%20-%20性能调优/) |
+| 06-12 | **上机实验**：两级流水 Vector Add、DoubleBuffer 阻塞点分析、msprof 性能采集与 PipeUtilization 分析 | ✅ | [05 - 上机实验](算子/算子开发基础/05%20-%20上机实验/) |
 
 ### 模型结构
 
-| 内容 | 状态 | Deadline |
-|------|:----:|----------|
-| 待补充 | ⬜ | |
+#### DeepSeek V4
+
+| 日期 | 内容 | 状态 | 产出 |
+|:---:|------|:----:|------|
+| 06-29 | **DSpark 论文研读**：投机推理发展史（自回归 → 并行 → 半自回归）、Confidence-Scheduled 调度机制、与 MTP/DFlash/Eagle3 的横向对比 | ✅ | [DSpark 论文原稿](模型/deepseek_v4/DSpark_paper.pdf) |
+| 06-30 | **DeepSpec 代码仓通读**：6 个核心 Trick 的逐行注释 — Markov 头、置信度头、L1 主+CE 辅损失、Teacher Forcing、位置衰减权重、STS 校准/异步调度原理 | ✅ | [DeepSpec 核心代码注释](模型/deepseek_v4/DeepSpec_核心代码注释.md) |
+| 07-02 | **DeepSeek V4 模型结构学习**：MHC 多超连接残差流、MLA 多头潜在注意力、MoE 路由与负载均衡、MTP 多 Token 预测 | ✅ | [DeepSeek V4 模型结构学习](模型/deepseek_v4/DeepSeek_V4_模型结构学习.md) |
 
 ---
 
